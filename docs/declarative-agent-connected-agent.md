@@ -36,7 +36,8 @@ An agent may be able to work with a set of documents and actions very well, but 
 Connect to other declarative agents by including the agents' Title IDs in the existing [Declarative Agent's manifest](docs/declarative-agent-manifest-1.6.md).
 
 First, obtain the Title ID of the agent to connect. The Title ID of a Declarative Agent is a GUID. It is available in the output of the Provisioning command in Agents Toolkit or in [developer mode](debugging-agents-copilot-studio.md).
-:::image type="content" source="assets/images/developer-mode-title-id.png" alt-text="Screenshot of Microsoft 365 Copilot session where Copilot has returned a card with debugging information showing the Title ID":::
+
+:::image type="content" source="assets/images/declarative-agents/developer-mode-title-id.png" alt-text="Screenshot of Microsoft 365 Copilot session where Copilot has returned a card with debugging information showing the Title ID":::
 
 Add the Title ID to the [worker_agents](docs/declarative-agent-manifest-1.6.md) property as the *id*. The worker_agents property was added in Declarative agent schema 1.6.
 
